@@ -1,0 +1,9 @@
+{
+  "name": "appointy-xi",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "products/appointy-xi/src",
+  "projectType": "application",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project appointy-xi --web",
+  "targets": {}
+}

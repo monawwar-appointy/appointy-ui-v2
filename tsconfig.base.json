@@ -14,7 +14,16 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@saastack/components": ["packages/saastack/ui/components/src/index.ts"],
+      "@saastack/layouts": ["packages/saastack/ui/layouts/src/index.ts"],
+      "@saastack/module.users": [
+        "packages/saastack/modules/users/src/index.ts"
+      ],
+      "@saastack/network": ["packages/saastack/network/src/index.ts"],
+      "@saastack/router": ["packages/saastack/router/src/index.ts"],
+      "@saastack/templates": ["packages/saastack/templates/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
